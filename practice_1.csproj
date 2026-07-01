@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Task3 - Even or Odd Checker\" />
+    <Folder Include="Task2 - Rectangle Calculator\" />
+    <Folder Include="Task1 - Personal Information\" />
+  </ItemGroup>
+
 </Project>

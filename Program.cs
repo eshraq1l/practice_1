@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             /*
-           //task 1
+           //Task1 - Personal Information
+            Program.cs
             string name = "Eshraq";
             int age = 22;
             double height = 1.63;
@@ -16,9 +17,9 @@
             Console.WriteLine("Age: " + age);
             Console.WriteLine("Height: " + height);
             Console.WriteLine("Student: " + isStudent);
-            */
+
             //////////////////////////////////////////////////////////////////
-            ///
+            /*
             //task2
 
             Console.Write("Enter the length of the rectangle: ");
@@ -29,8 +30,21 @@
             double perimeter = 2 * (length + width);
             Console.WriteLine("Area: " + area);
             Console.WriteLine("Perimeter: " + perimeter);
-            //////////////////////////////////////////////////////////////////
-            
+           */ //////////////////////////////////////////////////////////////////
+            //task 3
+            Console.Write("Enter a whole number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 2 == 0)
+            {
+                Console.WriteLine(number + " is Even");
+            }
+            else
+            {
+                Console.WriteLine(number + " is Odd");
+            }
+
+            Console.WriteLine();
 
 
 
