@@ -20,14 +20,29 @@
             //task2
 
             Console.Write("Enter the length of the rectangle: ");
-            double length = double.Parse(Console.ReadLine());
+            double length = double.Parse(Console.ReadLine()!);
             Console.Write("Enter the width of the rectangle: ");
-            double width = double.Parse(Console.ReadLine());
+            double width = double.Parse(Console.ReadLine()!);
             double area = length * width;
             double perimeter = 2 * (length + width);
             Console.WriteLine("Area: " + area);
             Console.WriteLine("Perimeter: " + perimeter);
+            //////////////////////////////////////////////////////////////////
+            //task3
 
+            Console.Write("Enter a whole number: ");
+            int checkNumber = Convert.ToInt32(Console.ReadLine());
+
+            if (checkNumber % 2 == 0)
+            {
+                Console.WriteLine(checkNumber + " is Even.");
+            }
+            else
+            {
+                Console.WriteLine(checkNumber + " is Odd.");
+            }
+
+            Console.WriteLine();
 
         }
     }
